@@ -1,4 +1,6 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using Core.Services.Interface;
+using Core.Services.Service;
+using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,7 +13,7 @@ namespace Core.Services.Extensions
     {
         public static void AddAuthServices(this IServiceCollection services)
         {
-          
+            services.AddScoped<IAuthService, AuthService>();
         }
     }
 }
