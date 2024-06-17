@@ -1,4 +1,3 @@
-Elbette, işte tüm adımları tek seferde içeren bir README dosyası:
 
 ```markdown
 # .NET 8 Web API Template with Identity, EF Core, MSSQL, and Role-Based Authentication
