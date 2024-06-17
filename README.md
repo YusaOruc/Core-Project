@@ -1,7 +1,7 @@
 
 ```markdown
 # .NET 8 Web API Template with Identity, EF Core, MSSQL, and Role-Based Authentication
-
+ ```
 This repository provides a template for creating .NET 8 Web API projects with the following features:
 
 - **Identity** for user authentication and management
@@ -9,14 +9,14 @@ This repository provides a template for creating .NET 8 Web API projects with th
 - **MSSQL** as the database provider
 - **JWT (JSON Web Token)** for token-based authentication
 - **Role-Based Authorization** for managing user permissions
-
+ 
 ## Features
-
+ 
 - **User Authentication and Management**: Using ASP.NET Identity for handling user registration, login, and role management.
 - **Database Integration**: Entity Framework Core with MSSQL for database operations.
 - **JWT Authentication**: Securely authenticate users using JWT tokens.
 - **Role-Based Authorization**: Define and enforce roles for different users in the system.
-
+ 
 ## Getting Started
 
 To get started with this template, follow the steps below:
@@ -25,12 +25,12 @@ To get started with this template, follow the steps below:
 
 Ensure you have the following installed:
 
+
 - [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)
 - [SQL Server](https://www.microsoft.com/en-us/sql-server/sql-server-downloads) or Azure SQL Database
 - [Visual Studio](https://visualstudio.microsoft.com/) or [Visual Studio Code](https://code.visualstudio.com/)
 
 ### Installation
-
 1. **Clone the repository:**
 
    ```bash
